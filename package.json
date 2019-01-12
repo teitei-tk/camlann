@@ -1,0 +1,38 @@
+{
+  "scripts": {
+    "lint": "tslint --project ."
+  },
+  "dependencies": {
+    "@rails/webpacker": "3.5",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "ts-loader": "3.5.0",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "tslint-plugin-prettier": "^2.0.1",
+    "webpack-dev-server": "2.11.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "tsx"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "testMatch": [
+      "**/__tests__/**/*.+(ts|tsx|js)"
+    ]
+  }
+}

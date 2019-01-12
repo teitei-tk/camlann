@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "include": ["frontend/**/*"],
+  "exclude": ["**/*.spec.ts", "node_modules", "vendor", "public"],
+  "compileOnSave": false
+}
