@@ -1,0 +1,11 @@
+Style/MethodCallWithArgsParentheses:
+  Exclude:
+    - "config.ru"
+    - "Gemfile"
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - "test/test_helper.rb"

@@ -1,0 +1,15 @@
+inherit_from:
+  - ".rubocop_style.yml"
+  - ".rubocop_disabled.yml"
+
+Rails:
+  Enabled: true
+
+AllCops:
+  TargetRubyVersion: 2.6
+  TargetRailsVersion: 5.2
+
+  Exclude:
+    - "bin/**/*"
+    - "config/**/*"
+    - "vendor/**/*"
