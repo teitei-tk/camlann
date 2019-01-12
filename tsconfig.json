@@ -3,17 +3,12 @@
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "lib": ["es6", "dom"],
-    "module": "es6",
+    "lib": ["esnext", "dom"],
     "moduleResolution": "node",
     "sourceMap": true,
     "target": "es5"
   },
-  "exclude": [
-    "**/*.spec.ts",
-    "node_modules",
-    "vendor",
-    "public"
-  ],
+  "include": ["frontend/**/*"],
+  "exclude": ["**/*.spec.ts", "node_modules", "vendor", "public"],
   "compileOnSave": false
 }

@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "lint": "tslint --project ."
+  },
   "dependencies": {
     "@rails/webpacker": "3.5",
     "@types/react": "^16.7.18",
@@ -7,6 +10,9 @@
     "typescript": "^3.2.2"
   },
   "devDependencies": {
+    "prettier": "^1.15.3",
+    "tslint": "^5.12.1",
+    "tslint-plugin-prettier": "^2.0.1",
     "webpack-dev-server": "2.11.2"
   }
 }
